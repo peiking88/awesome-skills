@@ -1,0 +1,69 @@
+[submodule "agent-skills-cli"]
+	path = agent-skills-cli
+	url = https://bgithub.xyz/Karanjot786/agent-skills-cli
+[submodule "awesome-claude-skills_2"]
+	path = awesome-claude-skills_2
+	url = https://bgithub.xyz/travisvn/awesome-claude-skills
+[submodule "claude-scientific-skills"]
+	path = claude-scientific-skills
+	url = https://bgithub.xyz/K-Dense-AI/claude-scientific-skills
+[submodule "claudekit-skills"]
+	path = claudekit-skills
+	url = https://bgithub.xyz/mrgoonie/claudekit-skills
+[submodule "obsidian-dataview"]
+	path = obsidian-dataview
+	url = https://bgithub.xyz/blacksmithgu/obsidian-dataview
+[submodule "Agent-Skills-for-Context-Engineering"]
+	path = Agent-Skills-for-Context-Engineering
+	url = https://bgithub.xyz/muratcankoylan/Agent-Skills-for-Context-Engineering
+[submodule "Anthropic_skills"]
+	path = Anthropic_skills
+	url = https://bgithub.xyz/anthropics/skills
+[submodule "awesome-claude-skills"]
+	path = awesome-claude-skills
+	url = https://bgithub.xyz/VoltAgent/awesome-claude-skills
+[submodule "awesome-claude-skills_1"]
+	path = awesome-claude-skills_1
+	url = https://bgithub.xyz/BehiSecc/awesome-claude-skills
+[submodule "awesome-obsidian"]
+	path = awesome-obsidian
+	url = https://bgithub.xyz/kmaasrud/awesome-obsidian
+[submodule "buildwithclaude"]
+	path = buildwithclaude
+	url = https://bgithub.xyz/davepoon/buildwithclaude
+[submodule "claude-skills-marketplace"]
+	path = claude-skills-marketplace
+	url = https://bgithub.xyz/mhattingpete/claude-skills-marketplace
+[submodule "huggingface-skills"]
+	path = huggingface-skills
+	url = https://bgithub.xyz/huggingface/skills
+[submodule "my-skills"]
+	path = my-skills
+	url = https://bgithub.xyz/bear2u/my-skills
+[submodule "n-skills"]
+	path = n-skills
+	url = https://bgithub.xyz/numman-ali/n-skills
+[submodule "obsidian-git"]
+	path = obsidian-git
+	url = https://bgithub.xyz/Vinzent03/obsidian-git
+[submodule "obsidian-releases"]
+	path = obsidian-releases
+	url = https://bgithub.xyz/obsidianmd/obsidian-releases
+[submodule "obsidian-skills"]
+	path = obsidian-skills
+	url = https://bgithub.xyz/kepano/obsidian-skills
+[submodule "openskills"]
+	path = openskills
+	url = https://bgithub.xyz/numman-ali/openskills
+[submodule "planning-with-files"]
+	path = planning-with-files
+	url = https://bgithub.xyz/OthmanAdi/planning-with-files
+[submodule "Skill_Seekers"]
+	path = Skill_Seekers
+	url = https://bgithub.xyz/yusufkaraaslan/Skill_Seekers
+[submodule "superpowers"]
+	path = superpowers
+	url = https://bgithub.xyz/obra/superpowers
+[submodule "whenwords"]
+	path = whenwords
+	url = https://bgithub.xyz/dbreunig/whenwords
