@@ -2,8 +2,10 @@
 
 | 名称 | 描述 | 脚本 | 参考资料 | 资源 |
 |------|------|------|----------|------|
-| Agent-Skills-for-Context-Engineering | 上下文工程的综合技能集合，用于构建生产级AI代理系统。涵盖上下文基础、多智能体模式、内存系统、工具设计、评估和项目开发 | 包含多个技能子文件夹，每个技能包含SKILL.md和可选的scripts/目录 | 有 | 有 |
-| context-engineering-collection | 上下文工程技能的综合集合，用于构建、优化或调试需要有效上下文管理的AI代理系统 | 无特定脚本（集合类技能） | 有 | 有 |
+| Agent-Skills-for-Context-Engineering | 上下文工程的综合skill集合，用于构建生产级AI代理系统。涵盖上下文基础、多智能体模式、内存系统、工具设计、评估和项目开发 | 包含多个skill子文件夹，每个skill包含SKILL.md和可选的scripts/目录 | 有 | 有 |
+| Agent Skills Platform | 开放的skill格式标准，为AI代理提供新能力和专业知识。支持领域专业知识打包、新能力扩展、可重复工作流和多代理互操作 | 由Anthropic开发的开放标准，支持多AI平台 | 有 | 有 |
+| SkillsMP | AI skill市场平台，提供skill发现、管理和分发服务。支持多种AI代理工具的skill集成 | 包含市场功能和skill管理工具 | 有 | 有 |
+| context-engineering-collection | 上下文工程skill的综合集合，用于构建、优化或调试需要有效上下文管理的AI代理系统 | 无特定脚本（集合类skill） | 有 | 有 |
 | algorithmic-art | 使用p5.js创建算法艺术，支持随机种子和交互式参数探索 | 无特定脚本（但包含HTML模板生成） | 无 | 有（templates/viewer.html等） |
 | brand-guidelines | 应用Anthropic官方品牌色彩和排版到各类工件 | 无 | 无 | 无 |
 | canvas-design | 创建美观的视觉艺术PNG和PDF文档 | 无特定脚本 | 无 | 有（canvas-fonts目录包含字体文件） |
@@ -109,7 +111,7 @@
 
 | 类别 | 数量 |
 |------|------|
-| 主要项目 | 23 |
+| 主要项目 | 25 |
 | 独立SKILL.md文件 | 382+ |
 | 脚本文件(.js, .ts, .py) | 500+ |
 | 参考文档(.md) | 500+ |
