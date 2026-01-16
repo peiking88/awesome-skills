@@ -1,4 +1,4 @@
-# 技能详细清单
+# skill详细清单
 
 | 名称 | 描述 | 脚本 | 参考资料 | 资源 |
 |------|------|------|----------|------|
@@ -16,36 +16,36 @@
 | mcp-builder | 创建高质量MCP服务器的指南 | 无 | 有（reference/mcp_best_practices.md、reference/python_mcp_server.md等） | 有（reference/目录） |
 | pdf | PDF处理工具包，支持文本和表格提取、创建新PDF、合并/拆分文档 | 无Python脚本（使用pypdf、pdfplumber、reportlab等库） | 有（reference.md、forms.md） | 有（reference/目录） |
 | pptx | PowerPoint演示文稿的创建、编辑和分析 | scripts/html2pptx.js - HTML转PPTX；scripts/rearrange.py - 重新排列幻灯片；scripts/inventory.py - 提取文本清单；scripts/replace.py - 替换文本；scripts/thumbnail.py - 生成缩略图；ooxml/scripts/unpack.py - 解压OOXML；ooxml/scripts/pack.py - 打包OOXML；ooxml/scripts/validate.py - 验证OOXML | 有（html2pptx.md、ooxml.md等） | 有（reference/目录、templates/目录） |
-| skill-creator | 创建有效技能的指南 | scripts/init_skill.py - 初始化新技能；scripts/package_skill.py - 打包技能 | 有（references/workflows.md、references/output-patterns.md等） | 有（references/目录、assets/目录） |
+| skill-creator | 创建有效skill的指南 | scripts/init_skill.py - 初始化新skill；scripts/package_skill.py - 打包skill | 有（references/workflows.md、references/output-patterns.md等） | 有（references/目录、assets/目录） |
 | slack-gif-creator | 为Slack创建优化动画GIF的知识和实用工具 | core/gif_builder.py - GIF构建器；core/validators.py - 验证器；core/easing.py - 缓动函数；core/frame_composer.py - 帧合成器 | 无 | 有（core/目录） |
 | theme-factory | 使用主题样式化工件的工具包 | 无 | 无 | 有（theme-showcase.pdf、themes/目录） |
 | web-artifacts-builder | 使用现代前端Web技术创建复杂的claude.ai HTML工件的工具套件 | scripts/init-artifact.sh - 初始化项目；scripts/bundle-artifact.sh - 打包HTML工件 | 有（https://ui.shadcn.com/docs/components） | 无特定资源文件 |
 | webapp-testing | 使用Playwright与本地Web应用交互和测试的工具包 | scripts/with_server.py - 管理服务器生命周期；examples/element_discovery.py - 元素发现示例；examples/static_html_automation.py - 静态HTML自动化示例；examples/console_logging.py - 控制台日志示例 | 有（examples/目录下的示例） | 有（examples/目录） |
 | xlsx | Excel电子表格的创建、编辑和分析，支持公式、格式化、数据分析和可视化 | recalc.py - 重新计算Excel公式 | 无 | 无 |
 | planning-with-files | 实现基于文件的复杂任务规划，创建task_plan.md、findings.md和progress.md文件 | scripts/init-session.sh - 初始化所有规划文件；scripts/check-complete.sh - 验证所有阶段是否完成 | 有（reference.md、examples.md） | 有（templates/目录下的模板文件） |
-| template-skill | 创建新技能的模板 | 无 | 无 | 无 |
+| template-skill | 创建新skill的模板 | 无 | 无 | 无 |
 | book-sft-pipeline | 书籍SFT训练管道 | 无特定脚本 | 有 | 有 |
 | digital-brain-skill | 数字大脑个人操作系统 | 无特定脚本 | 有 | 有 |
 | interleaved_thinking | 交错思考 | 无特定脚本 | 有 | 有 |
-| advanced-evaluation | 高级评估技术（LLM-as-Judge） | 各技能特定脚本 | 有 | 有（reference/目录和外部资源链接） |
-| bdi-mental-states | BDI思维状态建模 | 各技能特定脚本 | 有 | 有（reference/目录） |
-| context-compression | 上下文压缩策略 | 各技能特定脚本 | 有 | 有（reference/目录） |
-| context-degradation | 上下文退化模式 | 各技能特定脚本 | 有 | 有（reference/目录） |
-| context-fundamentals | 上下文工程基础 | 各技能特定脚本 | 有 | 有（reference/目录） |
-| context-optimization | 上下文优化技术 | 各技能特定脚本 | 有 | 有（reference/目录） |
-| evaluation | 代理系统评估方法 | 各技能特定脚本 | 有 | 有（reference/目录） |
-| filesystem-context | 基于文件系统的上下文工程 | 各技能特定脚本 | 有 | 有（reference/目录） |
-| hosted-agents | 托管代理基础设施 | 各技能特定脚本 | 有 | 有（reference/目录） |
-| memory-systems | 记忆系统设计 | 各技能特定脚本 | 有 | 有（reference/目录） |
-| multi-agent-patterns | 多代理架构模式 | 各技能特定脚本 | 有 | 有（reference/目录） |
-| project-development | 项目开发方法论 | 各技能特定脚本 | 有 | 有（reference/目录） |
-| tool-design | 代理工具设计 | 各技能特定脚本 | 有 | 有（reference/目录） |
+| advanced-evaluation | 高级评估技术（LLM-as-Judge） | 各skill特定脚本 | 有 | 有（reference/目录和外部资源链接） |
+| bdi-mental-states | BDI思维状态建模 | 各skill特定脚本 | 有 | 有（reference/目录） |
+| context-compression | 上下文压缩策略 | 各skill特定脚本 | 有 | 有（reference/目录） |
+| context-degradation | 上下文退化模式 | 各skill特定脚本 | 有 | 有（reference/目录） |
+| context-fundamentals | 上下文工程基础 | 各skill特定脚本 | 有 | 有（reference/目录） |
+| context-optimization | 上下文优化技术 | 各skill特定脚本 | 有 | 有（reference/目录） |
+| evaluation | 代理系统评估方法 | 各skill特定脚本 | 有 | 有（reference/目录） |
+| filesystem-context | 基于文件系统的上下文工程 | 各skill特定脚本 | 有 | 有（reference/目录） |
+| hosted-agents | 托管代理基础设施 | 各skill特定脚本 | 有 | 有（reference/目录） |
+| memory-systems | 记忆系统设计 | 各skill特定脚本 | 有 | 有（reference/目录） |
+| multi-agent-patterns | 多代理架构模式 | 各skill特定脚本 | 有 | 有（reference/目录） |
+| project-development | 项目开发方法论 | 各skill特定脚本 | 有 | 有（reference/目录） |
+| tool-design | 代理工具设计 | 各skill特定脚本 | 有 | 有（reference/目录） |
 | deep-researcher | 深度研究工作流 | TypeScript CLI核心和多个核心源文件 | 有 | 有 |
-| test-skill | 测试技能模板 | 无特定脚本 | 有 | 无 |
+| test-skill | 测试skill模板 | 无特定脚本 | 有 | 无 |
 | adaptyv | 云实验室平台，用于自动化蛋白质测试和验证 | 无特定脚本 | 有 | 有 |
 | aeon | 时间序列机器学习工具包 | 无特定脚本 | 有 | 有 |
 | alphafold-database | 访问AlphaFold 200M+ AI预测的蛋白质结构。通过UniProt ID检索结构，下载PDB/mmCIF文件，分析置信度指标（pLDDT、PAE），用于药物发现和结构生物学 | 无特定脚本（使用Biopython访问） | 有（references/api_reference.md包含完整的API文档、文件格式、数据架构、高级查询示例） | 有（包含references/api_reference.md和外部资源链接） |
-| anndata | 用于单细胞分析带注释矩阵的数据结构。用于处理.h5ad文件或与scverse生态系统集成。这是数据格式技能 - 用于分析工作流使用scanpy；用于概率模型使用scvi-tools；用于群体规模查询使用cellxgene-census | 无特定脚本 | 有（references/data_structure.md、references/io_operations.md、references/concatenation.md等） | 无 |
+| anndata | 用于单细胞分析带注释矩阵的数据结构。用于处理.h5ad文件或与scverse生态系统集成。这是数据格式skill - 用于分析工作流使用scanpy；用于概率模型使用scvi-tools；用于群体规模查询使用cellxgene-census | 无特定脚本 | 有（references/data_structure.md、references/io_operations.md、references/concatenation.md等） | 无 |
 | arboreto | 从基因表达数据使用可扩展算法（GRNBoost2、GENIE3）推断基因调控网络（GRNs）。支持分布式计算处理大规模数据集 | scripts/basic_grn_inference.py - 基础GRN推断的标准推理任务 | 有（references/basic_inference.md、references/algorithms.md、references/distributed_computing.md等） | 有（references/目录和脚本文件） |
 | astropy | 天文学和天体物理学综合Python库。用于处理天文学数据，包括天体坐标、物理单位、FITS文件、宇宙学计算、时间系统、表格、世界坐标系（WCS）和天文学数据分析 | 无特定脚本 | 有（references/units.md、references/coordinates.md、references/cosmology.md、references/fits.md、references/tables.md、references/time.md、references/wcs_and_other_modules.md等） | 无 |
 | benchling-integration | Benchling R&D平台集成。通过API访问注册表（DNA、蛋白质）、库存、ELN条目、工作流，构建Benchling应用，查询数据仓库，用于实验室数据管理自动化 | Python SDK和REST API客户端，各模块操作脚本 | 有（references/authentication.md、references/sdk_reference.md、references/api_endpoints.md等） | 有（references/目录、scripts/目录和示例脚本） |
@@ -118,22 +118,22 @@
 | 配置文件(.json, .yaml) | 210+ |
 | 插件市场项目 | 5+ |
 
-## 主要技能类别
+## 主要skill类别
 
 - **上下文工程** - Agent Skills for Context Engineering
-- **文档处理** - PDF、DOCX、PPTX、XLSX技能
-- **软件开发** - 后端、前端、全栈开发技能
+- **文档处理** - PDF、DOCX、PPTX、XLSX skill
+- **软件开发** - 后端、前端、全栈开发skill
 - **科学计算** - 生物信息、化学、蛋白质组学等
-- **AI/ML** - 机器学习、深度学习技能
+- **AI/ML** - 机器学习、深度学习skill
 - **工作流自动化** - Git、测试、代码审查
 - **可视化** - 图表、架构图、流程图
 - **DevOps** - Docker、K8s、云平台
 - **数据库** - MongoDB、PostgreSQL、各种生物数据库
-- **工具管理** - MCP服务器、技能验证
+- **工具管理** - MCP服务器、skill验证
 
 ## 安装方式
 
-大部分技能支持以下安装方式：
+大部分skill支持以下安装方式：
 
 1. **Claude Code Plugin Marketplace** - 最推荐
 2. **手动安装** - 复制到 `~/.claude/skills/`
@@ -146,4 +146,4 @@
 
 ---
 
-**说明**：以上清单基于当前目录下的382个SKILL.md文件整理。由于数量庞大，每个技能都包含了名称、描述（中文）、脚本功能介绍、参考资料和资源信息。对于部分技能，如果未读取到完整内容，脚本信息可能标注为"无特定脚本"或基于通用说明。
+**说明**：以上清单基于当前目录下的382个SKILL.md文件整理。由于数量庞大，每个skill都包含了名称、描述（中文）、脚本功能介绍、参考资料和资源信息。对于部分skill，如果未读取到完整内容，脚本信息可能标注为"无特定脚本"或基于通用说明。
