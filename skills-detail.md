@@ -1,5 +1,11 @@
 # skill详细清单
 
+## 官方 Anthropic Skills（已全部下载）
+
+- **官方仓库**：https://bgithub.xyz/anthropics/skills
+- **本地路径**：`/home/li/awesome-skills/Anthropic_skills/skills/`
+- **清单**：algorithmic-art、brand-guidelines、canvas-design、doc-coauthoring、docx、frontend-design、internal-comms、mcp-builder、pdf、pptx、skill-creator、slack-gif-creator、theme-factory、web-artifacts-builder、webapp-testing、xlsx
+
 | 名称 | 描述 | 脚本 | 参考资料 | 资源 |
 |------|------|------|----------|------|
 | Agent-Skills-for-Context-Engineering | 上下文工程的综合skill集合，用于构建生产级AI代理系统。涵盖上下文基础、多智能体模式、内存系统、工具设计、评估和项目开发 | 包含多个skill子文件夹，每个skill包含SKILL.md和可选的scripts/目录 | 有 | 有 |
