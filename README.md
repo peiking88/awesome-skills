@@ -23,6 +23,10 @@
 | N-Skills Universal Marketplace | "一次编写，随处运行"的通用市场。支持Claude Code、GitHub Copilot、Codex、Cursor、Windsurf等所有AI代理 | 包含同步脚本(如sync-external.mjs、update-registry.mjs) | 有 | 有 |
 | OpenSkills Universal Installer | 通用skill安装器，支持所有AI代理。支持从Git仓库安装、skill验证、导出等功能 | TypeScript CLI，包含核心命令和功能模块 | 有 | 有 |
 | Agent Skills CLI | 单一CLI，50000+skill，支持所有AI代理。可以从市场安装skill、搜索、验证、导出等 | TypeScript CLI核心和多个核心源文件 | 有 | 有 |
+| Agent Skills (Vercel) | AI coding agent skills集合，含React/Next最佳实践、Web设计审查、Vercel部署等 | 包含多个skills定义 | 有 | 有 |
+| n8n-skills | 基于n8n-mcp的工作流构建技能集合（7个skills） | 无主要脚本 | 有 | 有 |
+| Claude Store | Claude Code技巧/命令/技能/代理配置的个人合集 | 包含skills、commands、agents与工具目录 | 有 | 有 |
+| UI UX Pro Max Skill | 提供跨平台UI/UX设计智能与设计系统生成能力 | 包含skill与CLI资源 | 有 | 有 |
 | Claude Scientific Skills | 140个科学skill的综合集合，涵盖生物信息学、化学信息学、蛋白质组学、临床研究、医疗AI、机器学习等多个科学领域 | 包含140+skill，每个skill包含SKILL.md和示例代码 | 有 | 有 |
 | Obsidian Skills | 用于Obsidian的Agent Skills，创建和编辑兼容Obsidian的纯文本文件(OFM、.base、.canvas) | 无主要脚本文件 | 有 | 有 |
 | Superpowers | 完整的软件开发工作流，基于可组合的"skill"和初始指令。包含测试驱动开发、系统调试、协作、子智能体驱动开发等 | 包含核心库脚本和多个功能脚本 | 有 | 有 |
@@ -203,7 +207,7 @@
 
 | 类别 | 数量 |
 |------|------|
-| 主要项目 | 23 |
+| 主要项目 | 27 |
 | 独立SKILL.md文件 | 382+ |
 | 脚本文件(.js, .ts, .py) | 500+ |
 | 参考文档(.md) | 500+ |
