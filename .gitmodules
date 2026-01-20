@@ -67,3 +67,15 @@
 [submodule "whenwords"]
 	path = whenwords
 	url = https://bgithub.xyz/dbreunig/whenwords
+[submodule "n8n-skills"]
+	path = n8n-skills
+	url = https://bgithub.xyz/czlonkowski/n8n-skills
+[submodule "agent-skills"]
+	path = agent-skills
+	url = https://bgithub.xyz/vercel-labs/agent-skills
+[submodule "claude-store"]
+	path = claude-store
+	url = https://bgithub.xyz/13331112522/claude-store
+[submodule "ui-ux-pro-max-skill"]
+	path = ui-ux-pro-max-skill
+	url = https://bgithub.xyz/nextlevelbuilder/ui-ux-pro-max-skill
