@@ -11,8 +11,16 @@
 | Agent-Skills-for-Context-Engineering | 上下文工程的综合skill集合，用于构建生产级AI代理系统。涵盖上下文基础、多智能体模式、内存系统、工具设计、评估和项目开发 | 包含多个skill子文件夹，每个skill包含SKILL.md和可选的scripts/目录 | 有 | 有 |
 | Agent Skills Platform | 开放的skill格式标准，为AI代理提供新能力和专业知识。支持领域专业知识打包、新能力扩展、可重复工作流和多代理互操作 | 由Anthropic开发的开放标准，支持多AI平台 | 有 | 有 |
 | SkillsMP | AI skill市场平台，提供skill发现、管理和分发服务。支持多种AI代理工具的skill集成 | 包含市场功能和skill管理工具 | 有 | 有 |
+| Skills.sh | 开放Agent Skill生态系统，提供skill目录和安装工具。支持36,000+ skill安装，包含排行榜和搜索功能 | 提供`npx skills add`命令行工具 | 有 | 有 |
+| Vercel Skills CLI | 开放agent skill生态系统CLI工具，支持40+种AI代理。提供skill安装、查找、更新、移除等功能 | TypeScript CLI，支持40+种代理（Claude Code、Cursor、Codex、OpenCode等） | 有 | 有 |
+| n8n-skills | 基于n8n-mcp的Claude Code skill集合，用于构建生产级n8n工作流。包含7个互补skill | 包含expression语法、MCP工具、工作流模式、验证、节点配置、JavaScript/Python代码skill | 有 | 有 |
+| C++ Core Guidelines Skills | C++代码审查实用工具包，基于C++ Core Guidelines的审查工作流和检查清单 | 提供SKILL.md定义和references/目录下的章节参考文档 | 有 | 有 |
+| Trail of Bits Skills | 安全研究、漏洞检测和审计工作流的Claude Code skill市场。包含20+安全相关skill | Python脚本、YARA规则、CodeQL查询、Semgrep规则等 | 有 | 有 |
+| Vue Skills (vuejs-ai) | Vue 3开发的Agent skill集合。包含8个skill涵盖最佳实践、路由、Pinia、测试、JSX等 | 8个skill：vue-best-practices、vue-router-best-practices、vue-pinia-best-practices、vue-testing-best-practices、vue-jsx-best-practices、vue-development-guides、vue-debug-guides、create-adaptable-composable | 有 | 有 |
+| Three.js Skills | Three.js skill文件集合，为Claude Code提供3D开发基础知识。包含10个skill | 10个skill：threejs-fundamentals、threejs-geometry、threejs-materials、threejs-lighting、threejs-textures、threejs-animation、threejs-loaders、threejs-shaders、threejs-postprocessing、threejs-interaction | 有 | 有 |
+| Nuxt Skills | Vue、Nuxt和NuxtHub的AI编程助手skill集合。包含17个skill | 17个skill：vue、nuxt、nuxt-modules、nuxthub、nuxt-content、nuxt-ui、nuxt-better-auth、reka-ui、document-writer、ts-library、motion、vueuse、nuxt-seo、vitest、vite、pnpm、tsdown | 有 | 有 |
+| VueUse Skills | VueUse组合式工具库的Agent skill。提供渐进式披露、最小token使用、离线优先设计 | vueuse-functions skill，包含VueUse所有组合式函数的参考文档 | 有 | 有 |
 | agent-skills | AI coding agent skills集合，含React/Next最佳实践、Web设计审查、Vercel部署等 | 无特定脚本（以skill文档为主） | 有 | 有 |
-| n8n-skills | 基于n8n-mcp的工作流构建技能集合（7个skills） | 无特定脚本 | 有 | 有 |
 | claude-store | Claude Code技巧/命令/技能/代理配置的个人合集 | 包含skills、commands、agents与工具目录 | 有 | 有 |
 | ui-ux-pro-max-skill | UI/UX设计智能与设计系统生成能力 | 含CLI与资源 | 有 | 有 |
 | context-engineering-collection | 上下文工程skill的综合集合，用于构建、优化或调试需要有效上下文管理的AI代理系统 | 无特定脚本（集合类skill） | 有 | 有 |
@@ -121,12 +129,12 @@
 
 | 类别 | 数量 |
 |------|------|
-| 主要项目 | 29 |
+| 主要项目 | 37 |
 | 独立SKILL.md文件 | 382+ |
 | 脚本文件(.js, .ts, .py) | 500+ |
 | 参考文档(.md) | 500+ |
 | 配置文件(.json, .yaml) | 210+ |
-| 插件市场项目 | 5+ |
+| 插件市场项目 | 8+ |
 
 ## 主要skill类别
 

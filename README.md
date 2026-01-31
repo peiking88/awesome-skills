@@ -37,6 +37,14 @@
 | Obsidian Git Plugin | Obsidian的Git集成插件源码，自动提交和同步Obsidian笔记 | TypeScript源码，包含main.ts、automaticsManager.ts、commands.ts等 | 有 | 有 |
 | Obsidian Releases | Obsidian发布信息数据库，跟踪插件、主题、桌面应用的版本 | Python数据处理脚本 | 有 | 有 |
 | Whenwords | 一个只有Skill的代码库，用于上下文窗口管理的工具，使用文件系统作为持久化记忆 | 包含测试配置文件 | 有 | 无 |
+| Skills.sh | 开放Agent Skill生态系统，提供skill目录和安装工具。支持36,000+ skill安装，包含排行榜和搜索功能 | 提供`npx skills add`命令行工具 | 有 | 有 |
+| Vercel Skills CLI | 开放agent skill生态系统CLI工具，支持40+种AI代理。提供skill安装、查找、更新、移除等功能 | TypeScript CLI，支持40+种代理（Claude Code、Cursor、Codex、OpenCode等） | 有 | 有 |
+| C++ Core Guidelines Skills | C++代码审查实用工具包，基于C++ Core Guidelines的审查工作流和检查清单 | 提供SKILL.md定义和references/目录下的章节参考文档 | 有 | 有 |
+| Trail of Bits Skills | 安全研究、漏洞检测和审计工作流的Claude Code skill市场。包含20+安全相关skill | Python脚本、YARA规则、CodeQL查询、Semgrep规则等 | 有 | 有 |
+| Vue Skills (vuejs-ai) | Vue 3开发的Agent skill集合。包含8个skill涵盖最佳实践、路由、Pinia、测试、JSX等 | 8个skill：vue-best-practices、vue-router-best-practices、vue-pinia-best-practices、vue-testing-best-practices、vue-jsx-best-practices、vue-development-guides、vue-debug-guides、create-adaptable-composable | 有 | 有 |
+| Three.js Skills | Three.js skill文件集合，为Claude Code提供3D开发基础知识。包含10个skill | 10个skill：threejs-fundamentals、threejs-geometry、threejs-materials、threejs-lighting、threejs-textures、threejs-animation、threejs-loaders、threejs-shaders、threejs-postprocessing、threejs-interaction | 有 | 有 |
+| Nuxt Skills | Vue、Nuxt和NuxtHub的AI编程助手skill集合。包含17个skill | 17个skill：vue、nuxt、nuxt-modules、nuxthub、nuxt-content、nuxt-ui、nuxt-better-auth、reka-ui、document-writer、ts-library、motion、vueuse、nuxt-seo、vitest、vite、pnpm、tsdown | 有 | 有 |
+| VueUse Skills | VueUse组合式工具库的Agent skill。提供渐进式披露、最小token使用、离线优先设计 | vueuse-functions skill，包含VueUse所有组合式函数的参考文档 | 有 | 有 |
 
 ## Agent Skills 必装清单（以官方仓库为准）
 
@@ -207,26 +215,26 @@
 
 | 类别 | 数量 |
 |------|------|
-| 主要项目 | 27 |
+| 主要项目 | 35 |
 | 独立SKILL.md文件 | 382+ |
 | 脚本文件(.js, .ts, .py) | 500+ |
 | 参考文档(.md) | 500+ |
 | 配置文件(.json, .yaml) | 210+ |
-| 插件市场项目 | 6+ |
+| 插件市场项目 | 8+ |
 
 ## 主要skill类别
 
 - **上下文工程** - Agent Skills for Context Engineering、Agent Skills Platform
-- **skill市场** - SkillsMP、Claude Skills Marketplace、N-Skills
+- **skill市场** - SkillsMP、Claude Skills Marketplace、N-Skills、Skills.sh、Vercel Skills CLI
 - **文档处理** - PDF、DOCX、PPTX、XLSX skill
-- **软件开发** - 后端、前端、全栈开发skill
+- **软件开发** - 后端、前端、全栈开发skill、Vue、Nuxt、Three.js
 - **科学计算** - 生物信息、化学、蛋白质组学等
 - **AI/ML** - 机器学习、深度学习skill
 - **工作流自动化** - Git、测试、代码审查
 - **可视化** - 图表、架构图、流程图
 - **DevOps** - Docker、K8s、云平台
 - **数据库** - MongoDB、PostgreSQL
-- **工具管理** - MCP服务器、skill验证
+- **工具管理** - MCP服务器、skill验证、安全审计、C++代码审查
 
 ## 安装方式
 

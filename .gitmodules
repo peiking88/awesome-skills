@@ -79,3 +79,30 @@
 [submodule "ui-ux-pro-max-skill"]
 	path = ui-ux-pro-max-skill
 	url = https://bgithub.xyz/nextlevelbuilder/ui-ux-pro-max-skill
+[submodule "cppcoreguidelines-skills"]
+	path = cppcoreguidelines-skills
+	url = https://bgithub.xyz/peiking88/cppcoreguidelines-skills
+[submodule "threejs-skills"]
+	path = threejs-skills
+	url = https://bgithub.xyz/CloudAI-X/threejs-skills
+[submodule "trailofbits-skills"]
+	path = trailofbits-skills
+	url = https://bgithub.xyz/trailofbits/skills
+[submodule "vue-skills"]
+	path = vue-skills
+	url = https://bgithub.xyz/hyf0/vue-skills
+[submodule "nuxt-skills"]
+	path = nuxt-skills
+	url = https://bgithub.xyz/onmax/nuxt-skills
+[submodule "vueuse-skills"]
+	path = vueuse-skills
+	url = https://bgithub.xyz/vueuse/skills
+[submodule "remotion-skills"]
+	path = remotion-skills
+	url = https://bgithub.xyz/remotion-dev/skills
+[submodule "vercel-add-skill"]
+	path = vercel-add-skill
+	url = https://bgithub.xyz/vercel-labs/add-skill
+[submodule "vercel-agent-skills"]
+	path = vercel-agent-skills
+	url = https://bgithub.xyz/vercel-labs/agent-skills
