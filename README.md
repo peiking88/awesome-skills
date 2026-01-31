@@ -1,10 +1,13 @@
 # Skills 列表
 
+> **注意**：本仓库使用Git子模块管理各个skill项目。由于代码目录中的子模块链接指向外部仓库，直接点击可能会遇到404错误。**请使用下方表格中的链接访问各项目**，或查看[.gitmodules](.gitmodules)获取完整仓库地址。
+
 ## 快速入口
 
 - 官方仓库必装清单（本地整理）：[Agent Skills Essential Checklist.md](Agent Skills Essential Checklist.md)
 - HTML → Markdown 通用转换脚本：[html2md.py](html2md.py)
 - 本仓库详细清单：[skills-detail.md](skills-detail.md)
+- 子模块配置文件：[.gitmodules](.gitmodules)
 
 ## 流行Skill仓库
 
