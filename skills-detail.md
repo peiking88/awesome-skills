@@ -4,7 +4,7 @@
 
 - **官方仓库**：https://bgithub.xyz/anthropics/skills
 - **本地路径**：`/home/li/awesome-skills/Anthropic_skills/skills/`
-- **清单**：algorithmic-art、brand-guidelines、canvas-design、doc-coauthoring、docx、frontend-design、internal-comms、mcp-builder、pdf、pptx、skill-creator、slack-gif-creator、theme-factory、web-artifacts-builder、webapp-testing、xlsx
+- **清单**：algorithmic-art、brand-guidelines、canvas-design、doc-coauthoring、docx、frontend-design、internal-comms、mcp-builder、pdf、pptx、skill-creator、slack-gif-creator、theme-factory、web-artifacts-builder、webapp-testing、xlsx（已全部作为子模块添加）
 
 | 名称 | 描述 | 脚本 | 参考资料 | 资源 |
 |------|------|------|----------|------|
@@ -20,6 +20,22 @@
 | Three.js Skills | Three.js skill文件集合，为Claude Code提供3D开发基础知识。包含10个skill | 10个skill：threejs-fundamentals、threejs-geometry、threejs-materials、threejs-lighting、threejs-textures、threejs-animation、threejs-loaders、threejs-shaders、threejs-postprocessing、threejs-interaction | 有 | 有 |
 | Nuxt Skills | Vue、Nuxt和NuxtHub的AI编程助手skill集合。包含17个skill | 17个skill：vue、nuxt、nuxt-modules、nuxthub、nuxt-content、nuxt-ui、nuxt-better-auth、reka-ui、document-writer、ts-library、motion、vueuse、nuxt-seo、vitest、vite、pnpm、tsdown | 有 | 有 |
 | VueUse Skills | VueUse组合式工具库的Agent skill。提供渐进式披露、最小token使用、离线优先设计 | vueuse-functions skill，包含VueUse所有组合式函数的参考文档 | 有 | 有 |
+| Vercel Labs Skills | 开放agent skill生态系统CLI工具，支持40+种AI代理 | TypeScript CLI，包含find-skills等skill | 有 | 有 |
+| Antfu Skills | Anthony Fu的个人skill集合，包含Vue、Nuxt、TypeScript等开发工具的skill | 多个skill文件 | 有 | 无 |
+| Awesome OpenClaw Skills | OpenClaw技能精选列表 | 无主要脚本 | 有 | 无 |
+| Alirezarezvani Claude Skills | Claude技能集合 | 多个skill目录 | 有 | 有 |
+| Videocut Skills | 视频剪辑相关skill | 无主要脚本 | 有 | 有 |
+| Skill from Masters | 从专家收集的skill集合 | 无主要脚本 | 有 | 有 |
+| Khazix Skills | 个人skill集合 | 无主要脚本 | 有 | 有 |
+| NotebookLM Skill | NotebookLM相关skill | 无主要脚本 | 有 | 有 |
+| Humanizer | 文本人性化处理skill | 无主要脚本 | 有 | 有 |
+| Auto Redbook Skills | 小红书自动化skill | 无主要脚本 | 有 | 有 |
+| Postgres Skill | PostgreSQL数据库skill | 无主要脚本 | 有 | 有 |
+| Humanizer ZH | 中文文本人性化处理skill | 无主要脚本 | 有 | 有 |
+| Youtube Clipper Skill | YouTube视频剪辑skill | 无主要脚本 | 有 | 有 |
+| Skills Hub | 技能集合中心 | 无主要脚本 | 有 | 有 |
+| Repo2Skill | 将仓库转换为skill的工具 | 无主要脚本 | 有 | 有 |
+| AgentSkills | AgentSkills核心仓库 | 无主要脚本 | 有 | 有 |
 | agent-skills | AI coding agent skills集合，含React/Next最佳实践、Web设计审查、Vercel部署等 | 无特定脚本（以skill文档为主） | 有 | 有 |
 | claude-store | Claude Code技巧/命令/技能/代理配置的个人合集 | 包含skills、commands、agents与工具目录 | 有 | 有 |
 | ui-ux-pro-max-skill | UI/UX设计智能与设计系统生成能力 | 含CLI与资源 | 有 | 有 |
@@ -129,12 +145,12 @@
 
 | 类别 | 数量 |
 |------|------|
-| 主要项目 | 37 |
-| 独立SKILL.md文件 | 382+ |
+| 主要项目 | 52 |
+| 独立SKILL.md文件 | 400+ |
 | 脚本文件(.js, .ts, .py) | 500+ |
 | 参考文档(.md) | 500+ |
 | 配置文件(.json, .yaml) | 210+ |
-| 插件市场项目 | 8+ |
+| 插件市场项目 | 9+ |
 
 ## 主要skill类别
 
@@ -164,4 +180,4 @@
 
 ---
 
-**说明**：以上清单基于当前目录下的382个SKILL.md文件整理。由于数量庞大，每个skill都包含了名称、描述（中文）、脚本功能介绍、参考资料和资源信息。对于部分skill，如果未读取到完整内容，脚本信息可能标注为"无特定脚本"或基于通用说明。
+**说明**：以上清单基于当前目录下的400+个SKILL.md文件整理。由于数量庞大，每个skill都包含了名称、描述（中文）、脚本功能介绍、参考资料和资源信息。对于部分skill，如果未读取到完整内容，脚本信息可能标注为"无特定脚本"或基于通用说明。所有项目均已作为Git子模块添加，可通过 `.gitmodules` 查看完整列表。

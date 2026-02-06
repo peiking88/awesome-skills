@@ -109,3 +109,48 @@
 [submodule "vercel-labs-skills"]
 	path = vercel-labs-skills
 	url = https://bgithub.xyz/vercel-labs/skills
+[submodule "skill-from-masters"]
+	path = skill-from-masters
+	url = https://bgithub.xyz/GBSOSS/skill-from-masters.git
+[submodule "agentskills"]
+	path = agentskills
+	url = https://bgithub.xyz/agentskills/agentskills.git
+[submodule "videocut-skills"]
+	path = videocut-skills
+	url = https://bgithub.xyz/Ceeon/videocut-skills.git
+[submodule "awesome-openclaw-skills"]
+	path = awesome-openclaw-skills
+	url = https://bgithub.xyz/VoltAgent/awesome-openclaw-skills.git
+[submodule "antfu-skills"]
+	path = antfu-skills
+	url = https://bgithub.xyz/antfu/skills.git
+[submodule "alirezarezvani-claude-skills"]
+	path = alirezarezvani-claude-skills
+	url = https://bgithub.xyz/alirezarezvani/claude-skills.git
+[submodule "khazix-skills"]
+	path = khazix-skills
+	url = https://bgithub.xyz/KKKKhazix/Khazix-Skills.git
+[submodule "humanizer-zh"]
+	path = humanizer-zh
+	url = https://bgithub.xyz/op7418/Humanizer-zh.git
+[submodule "postgres-skill"]
+	path = postgres-skill
+	url = https://bgithub.xyz/digoal/postgres_skill.git
+[submodule "humanizer"]
+	path = humanizer
+	url = https://bgithub.xyz/blader/humanizer.git
+[submodule "notebooklm-skill"]
+	path = notebooklm-skill
+	url = https://bgithub.xyz/PleasePrompto/notebooklm-skill.git
+[submodule "auto-redbook-skills"]
+	path = auto-redbook-skills
+	url = https://bgithub.xyz/comeonzhj/Auto-Redbook-Skills.git
+[submodule "repo2skill"]
+	path = repo2skill
+	url = https://bgithub.xyz/zhangyanxs/repo2skill.git
+[submodule "youtube-clipper-skill"]
+	path = youtube-clipper-skill
+	url = https://bgithub.xyz/op7418/Youtube-clipper-skill.git
+[submodule "skills-hub"]
+	path = skills-hub
+	url = https://bgithub.xyz/qufei1993/skills-hub.git

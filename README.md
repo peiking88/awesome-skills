@@ -49,6 +49,22 @@
 | [Three.js Skills](https://bgithub.xyz/CloudAI-X/threejs-skills) | Three.js skill文件集合，为Claude Code提供3D开发基础知识。包含10个skill | 10个skill：threejs-fundamentals、threejs-geometry、threejs-materials、threejs-lighting、threejs-textures、threejs-animation、threejs-loaders、threejs-shaders、threejs-postprocessing、threejs-interaction | 有 | 有 |
 | [Nuxt Skills](https://bgithub.xyz/onmax/nuxt-skills) | Vue、Nuxt和NuxtHub的AI编程助手skill集合。包含17个skill | 17个skill：vue、nuxt、nuxt-modules、nuxthub、nuxt-content、nuxt-ui、nuxt-better-auth、reka-ui、document-writer、ts-library、motion、vueuse、nuxt-seo、vitest、vite、pnpm、tsdown | 有 | 有 |
 | [VueUse Skills](https://bgithub.xyz/vueuse/skills) | VueUse组合式工具库的Agent skill。提供渐进式披露、最小token使用、离线优先设计 | vueuse-functions skill，包含VueUse所有组合式函数的参考文档 | 有 | 有 |
+| [Vercel Labs Skills](https://bgithub.xyz/vercel-labs/skills) | 开放agent skill生态系统CLI工具，支持40+种AI代理。提供skill安装、查找、更新、移除等功能 | TypeScript CLI，包含find-skills等skill；本地路径：`vercel-labs-skills/` | 有 | 有 |
+| [Antfu Skills](https://bgithub.xyz/antfu/skills) | Anthony Fu的个人skill集合，包含Vue、Nuxt、TypeScript等开发工具的skill | 多个skill文件 | 有 | 无 |
+| [Awesome OpenClaw Skills](https://bgithub.xyz/VoltAgent/awesome-openclaw-skills) | OpenClaw技能精选列表，包含多个skill集合 | 无主要脚本 | 有 | 无 |
+| [Alirezarezvani Claude Skills](https://bgithub.xyz/alirezarezvani/claude-skills) | Claude技能集合，包含多种实用skill | 多个skill目录 | 有 | 有 |
+| [Videocut Skills](https://bgithub.xyz/Ceeon/videocut-skills) | 视频剪辑相关skill | 无主要脚本 | 有 | 有 |
+| [Skill from Masters](https://bgithub.xyz/GBSOSS/skill-from-masters) | 从专家收集的skill集合 | 无主要脚本 | 有 | 有 |
+| [Khazix Skills](https://bgithub.xyz/KKKKhazix/Khazix-Skills) | 个人skill集合 | 无主要脚本 | 有 | 有 |
+| [NotebookLM Skill](https://bgithub.xyz/PleasePrompto/notebooklm-skill) | NotebookLM相关skill | 无主要脚本 | 有 | 有 |
+| [Humanizer](https://bgithub.xyz/blader/humanizer) | 文本人性化处理skill | 无主要脚本 | 有 | 有 |
+| [Auto Redbook Skills](https://bgithub.xyz/comeonzhj/Auto-Redbook-Skills) | 小红书自动化skill | 无主要脚本 | 有 | 有 |
+| [Postgres Skill](https://bgithub.xyz/digoal/postgres_skill) | PostgreSQL数据库skill | 无主要脚本 | 有 | 有 |
+| [Humanizer ZH](https://bgithub.xyz/op7418/Humanizer-zh) | 中文文本人性化处理skill | 无主要脚本 | 有 | 有 |
+| [Youtube Clipper Skill](https://bgithub.xyz/op7418/Youtube-clipper-skill) | YouTube视频剪辑skill | 无主要脚本 | 有 | 有 |
+| [Skills Hub](https://bgithub.xyz/qufei1993/skills-hub) | 技能集合中心 | 无主要脚本 | 有 | 有 |
+| [Repo2Skill](https://bgithub.xyz/zhangyanxs/repo2skill) | 将仓库转换为skill的工具 | 无主要脚本 | 有 | 有 |
+| [AgentSkills](https://bgithub.xyz/agentskills/agentskills) | AgentSkills核心仓库 | 无主要脚本 | 有 | 有 |
 
 ## Agent Skills 必装清单（以官方仓库为准）
 
@@ -197,7 +213,7 @@
 
 #### 1. 官方仓库：bgithub.xyz/anthropics/skills
 
-- 特点：质量最高，官方示例与最佳实践（当前仓库含 16 个示例 skills）
+- 特点：质量最高，官方示例与最佳实践（当前仓库含 16 个示例 skills，已全部作为子模块添加）
 - 适合：学习最佳实践、需要稳定可靠的 skills
 - 不足：数量有限，更新频率相对较慢
 
@@ -219,8 +235,8 @@
 
 | 类别 | 数量 |
 |------|------|
-| 主要项目 | 36 |
-| 独立SKILL.md文件 | 383+ |
+| 主要项目 | 52 |
+| 独立SKILL.md文件 | 400+ |
 | 脚本文件(.js, .ts, .py) | 500+ |
 | 参考文档(.md) | 500+ |
 | 配置文件(.json, .yaml) | 210+ |
