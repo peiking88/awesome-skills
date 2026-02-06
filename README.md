@@ -27,6 +27,7 @@
 | [OpenSkills Universal Installer](https://bgithub.xyz/numman-ali/openskills) | 通用skill安装器，支持所有AI代理。支持从Git仓库安装、skill验证、导出等功能 | TypeScript CLI，包含核心命令和功能模块 | 有 | 有 |
 | [Agent Skills CLI](https://bgithub.xyz/Karanjot786/agent-skills-cli) | 单一CLI，50000+skill，支持所有AI代理。可以从市场安装skill、搜索、验证、导出等 | TypeScript CLI核心和多个核心源文件 | 有 | 有 |
 | [Agent Skills (Vercel)](https://bgithub.xyz/vercel-labs/agent-skills) | AI coding agent skills集合，含React/Next最佳实践、Web设计审查、Vercel部署等 | 包含多个skills定义 | 有 | 有 |
+| [Vercel Labs Skills](https://bgithub.xyz/vercel-labs/skills) | 开放agent skill生态系统CLI工具，支持40+种AI代理。提供skill安装、查找、更新、移除等功能 | TypeScript CLI，包含find-skills等skill；本地路径：`vercel-labs-skills/` | 有 | 有 |
 | [n8n-skills](https://bgithub.xyz/czlonkowski/n8n-skills) | 基于n8n-mcp的工作流构建技能集合（7个skills） | 无主要脚本 | 有 | 有 |
 | [Claude Store](https://bgithub.xyz/13331112522/claude-store) | Claude Code技巧/命令/技能/代理配置的个人合集 | 包含skills、commands、agents与工具目录 | 有 | 有 |
 | [UI UX Pro Max Skill](https://bgithub.xyz/nextlevelbuilder/ui-ux-pro-max-skill) | 提供跨平台UI/UX设计智能与设计系统生成能力 | 包含skill与CLI资源 | 有 | 有 |
@@ -218,17 +219,17 @@
 
 | 类别 | 数量 |
 |------|------|
-| 主要项目 | 35 |
-| 独立SKILL.md文件 | 382+ |
+| 主要项目 | 36 |
+| 独立SKILL.md文件 | 383+ |
 | 脚本文件(.js, .ts, .py) | 500+ |
 | 参考文档(.md) | 500+ |
 | 配置文件(.json, .yaml) | 210+ |
-| 插件市场项目 | 8+ |
+| 插件市场项目 | 9+ |
 
 ## 主要skill类别
 
 - **上下文工程** - Agent Skills for Context Engineering、Agent Skills Platform
-- **skill市场** - SkillsMP、Claude Skills Marketplace、N-Skills、Skills.sh、Vercel Skills CLI
+- **skill市场** - SkillsMP、Claude Skills Marketplace、N-Skills、Skills.sh、Vercel Skills CLI、Vercel Labs Skills
 - **文档处理** - PDF、DOCX、PPTX、XLSX skill
 - **软件开发** - 后端、前端、全栈开发skill、Vue、Nuxt、Three.js
 - **科学计算** - 生物信息、化学、蛋白质组学等
@@ -246,7 +247,24 @@
 1. **Claude Code Plugin Marketplace** - 最推荐
 2. **手动安装** - 复制到 `~/.claude/skills/`
 3. **MCP服务器** - 通过MCP协议使用
-4. **通用安装器** (OpenSkills、Agent Skills CLI)
+4. **通用安装器** (OpenSkills、Agent Skills CLI、Vercel Labs Skills CLI)
+
+## 新增子模块
+
+### vercel-labs/skills
+
+- **仓库地址**: https://bgithub.xyz/vercel-labs/skills
+- **本地路径**: `/home/li/awesome-skills/vercel-labs-skills/`
+- **描述**: 开放agent skill生态系统CLI工具，支持40+种AI代理
+- **主要功能**:
+  - `npx skills add` - 安装skill
+  - `npx skills find` - 搜索skill
+  - `npx skills list` - 列出已安装skill
+  - `npx skills remove` - 移除skill
+  - `npx skills check` - 检查更新
+  - `npx skills update` - 更新skill
+- **包含skill**: find-skills（帮助用户发现和安装agent skills）
+- **安装状态**: 已安装并构建完成
 
 ---
 

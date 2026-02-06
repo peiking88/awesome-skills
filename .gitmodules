@@ -106,3 +106,6 @@
 [submodule "vercel-agent-skills"]
 	path = vercel-agent-skills
 	url = https://bgithub.xyz/vercel-labs/agent-skills
+[submodule "vercel-labs-skills"]
+	path = vercel-labs-skills
+	url = https://bgithub.xyz/vercel-labs/skills
